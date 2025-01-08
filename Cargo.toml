@@ -1,0 +1,24 @@
+[package]
+name = "qrcodegen-rust-no-heap"
+version = "1.0.0"
+authors = ["Arkshine"]
+description = "High-quality QR Code generator library compiled to WebAssembly"
+repository = "https://github.com/arkshine/qr-code-generator-wasm"
+readme = "README.md"
+keywords = ["qr-code", "barcode", "encoder", "image"]
+categories = ["encoding", "multimedia::images"]
+license = "MIT"
+edition = "2021"
+exclude = ["examples/*"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+console_error_panic_hook = { version = "0.1", optional = true }
+js-sys = "0.3"
+resvg = "0.44.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+default = ["console_error_panic_hook"]
