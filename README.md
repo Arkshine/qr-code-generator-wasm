@@ -19,3 +19,5 @@ export class WasmQrCode {
   get_size(): number;
 }
 ```
+
+Compiled with `wasm-pack build --release --target web`.

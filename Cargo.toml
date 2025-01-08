@@ -1,5 +1,5 @@
 [package]
-name = "qrcodegen-rust-no-heap"
+name = "qrcodegen-no-heap"
 version = "1.0.0"
 authors = ["Arkshine"]
 description = "High-quality QR Code generator library compiled to WebAssembly"
