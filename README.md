@@ -4,8 +4,8 @@
 
 This project is a fork of [QR Code Generator](https://github.com/nayuki/QR-Code-generator) by Project Nayuki.
 
-Original License: MIT
-Original Repository: https://github.com/nayuki/QR-Code-generator
+- Original License: MIT
+- Original Repository: https://github.com/nayuki/QR-Code-generator
 
 ## Changes
 
